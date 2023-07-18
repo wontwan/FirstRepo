@@ -1,0 +1,16 @@
+class Palindrome {
+
+  public static boolean isPalindrome(int x) {
+    int originalX = x;
+    int reverseX = 0;
+
+    while (x > 0) {
+      reverseX = reverseX * 10 + x % 10;
+      x /= 10;
+    }
+
+    return originalX == reverseX;
+  }
+
+ 
+}

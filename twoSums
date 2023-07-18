@@ -1,0 +1,33 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSum {
+    /**
+     * Finds two numbers in an array that add up to the target.
+     *
+     * @param nums   The array of integers
+     * @param target The target sum
+     * @return An array of two indices that add up to the target
+     */
+    public int[] twoSum(int[] nums, int target) {
+        // Create a map to store the complement of each number
+        Map<Integer, Integer> complementMap = new HashMap<>();
+
+        // Iterate through the array
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+
+            // Check if the complement exists in the map
+            if (complementMap.containsKey(complement)) {
+                // Return the indices of the two numbers
+                return new int[]{complementMap.get(complement), i};
+            }
+
+            // Add the current number and its index to the map
+            complementMap.put(nums[i], i);
+        }
+
+        // No solution found, return an empty array
+        return new int[0];
+    }
+}
