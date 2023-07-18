@@ -18,6 +18,9 @@ Contact Me
 You can reach out to me through the following channels:
 
 GitHub: github.com/wontwan
+
 Email: 
+
 LinkedIn: linkedin.com/in/anton-lucich
+
 Thank you for visiting my profile, and I look forward to connecting with fellow cybersecurity enthusiasts and professionals! 😊
