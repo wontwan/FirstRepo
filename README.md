@@ -1,6 +1,6 @@
 
 Hi, I'm Anton - Welcome to My GitHub Profile! 👋
-Profile Banner
+
 
 About Me
 I am Anton, a passionate individual interested in cybersecurity and IT. I am currently pursuing my cybersecurity education and building a career in this field. Through my GitHub profile, I will be sharing my projects and documenting my journey, which includes CTF (Capture The Flag) challenges and programming scripts.
